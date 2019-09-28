@@ -1,0 +1,120 @@
+.container {
+    text-align: center;
+}
+
+.flag {
+    height: 100px;
+    width: 150px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.overlay {  
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.flag:hover .overlay{
+    opacity: 1;
+}
+
+.text {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    font-weight: 600;
+    font-size: 12px;  
+}
+
+
+#austria #france #ireland #netherlands #italy #malta #england #nireland{
+    background-color: white;
+}
+
+#romania {
+    background-color: #FCD036;
+    border-left: 50px #042E7D solid;
+    border-right: 50px #CC172C solid;
+}
+
+
+#austria {
+    border-top: 30px #ED2939 solid;
+    border-bottom: 30px #ED2939 solid;
+}
+
+#belgium {
+    background-color: #FDDA24;
+    border-left: 50px #000000 solid;
+    border-right: 50px #EF3340 solid;
+}
+
+#france {
+    border-left: 50px #0055A4 solid;
+    border-right: 50px #EF4135 solid;
+}
+
+#germany {
+    background-color: #DD0000;
+    border-left: 50px #000000 solid;
+    border-right: 50px #FFCE00 solid;
+}
+
+#ireland {
+    border-left: 50px #169B62 solid;
+    border-right: 50px #FF883E solid;
+}
+
+#netherlands {
+    border-left: 50px #AE1C28 solid;
+    border-right: 50px #21468B solid;
+}
+
+#russia {
+    background-color: #0033A0;
+    border-left: 50px #fff solid;
+    border-right: 50px #DA291C solid;
+}
+
+#serbia {
+    background-color: #0C4076;
+    border-top: 30px #C6363C solid;
+    border-bottom: 30px #fff solid;
+}
+
+#ukraine {
+    border-top: 50px #005BBB solid;
+    border-bottom: 50px #FFD500 solid;
+}
+
+#bosnia {
+    background-color: #002395;
+}
+
+
+#italy {
+    border-left: 50px #008C45 solid;
+    border-right: 50px #CD212A solid;
+}
+
+#malta {
+    border-right: 75px #CF142B solid;
+}
+
+#portugal {
+    background-color: #006600;
+    border-right: 100px #FF0000 solid;
+}
+
+#switzerland {
+    background-color: #D52B1E;
+}
+
+#sweden {
+    background-color: #004b87;
+}
+
+#scotland {
+    background-color: #0065bf;
+}
+
